@@ -10,11 +10,11 @@ export const navigationBar = (token, name) => {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" href="../html/food.html" style="color:black">Food</a>
-                        <a class="nav-link" href="../html/trending.html" style="color:black">Trending</a>
-                        <a class="nav-link" href="../html/search.html" style="color:black">Search</a>
-                        <a class="nav-link" href="../html/cart.html" style="color:black">Cart</a> 
-                        <a style="display:${!token ? 'block' : 'none'};color:black" class="nav-link" href="../html/login.html" >login</a>
+                        <a class="nav-link" href="../html/food.html" >Food</a>
+                        <a class="nav-link" href="../html/trending.html" >Trending</a>
+                        <a class="nav-link" href="../html/search.html" >Search</a>
+                        <a class="nav-link" href="../html/cart.html" >Cart</a> 
+                        <a style="display:${!token ? 'block' : 'none'}" class="nav-link" href="../html/login.html" >login</a>
                         <li style="display:${token ? 'block' : 'none'}" class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             ${name}
