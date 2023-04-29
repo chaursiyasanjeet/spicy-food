@@ -1,7 +1,6 @@
 export const footer = () => {
   return (
     `<div>
-
         <footer class="text-white text-center text-lg-start" style="background-color: #23242a;">
           <div class="container p-4">
             <div class="row mt-4">
