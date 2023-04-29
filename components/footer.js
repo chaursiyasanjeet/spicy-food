@@ -1,7 +1,7 @@
 export const footer = () => {
   return (
     `<div>
-        <footer class="text-white text-center text-lg-start" style="background-color: #23242a;">
+        <footer class="text-white text-center text-lg-start"  style="background-color: #23242a;">
           <div class="container p-4">
             <div class="row mt-4">
               <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
@@ -71,7 +71,7 @@ export const footer = () => {
           <!-- Copyright -->
           <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
             © 2023 Copyright:
-            <a class="text-white">Spice Food</a>
+            <span class="text-white">Spice Food</span>
           </div>
           <!-- Copyright -->
         </footer>
